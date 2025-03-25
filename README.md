@@ -41,8 +41,3 @@ Download this folder and shove the following file in the same folder as your wor
 ## Requirements
 
 * Pygmentize `apt install python3-pygments`
-* Lualatex
-
-## Usage
-
-`lualatex --shell-escape main.tex`
