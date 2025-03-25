@@ -155,20 +155,21 @@
 
 \newcommand{\fancytoc}{
 	\thispdfpagelabel{Contents}
-	% \titleBackground
 	{\hypersetup{linkcolor=text}
 		\setcounter{tocdepth}{0}
 		\begingroup
 			\let\clearpage\relax
+			\renewcommand{\contentsname}{} % <-- this removes the top "Contents"
 			\tableofcontents
 		\endgroup
 	}
-	\begin{textblock*}{5cm}(1.6cm,6cm) % {block width} (coords)
+	\begin{textblock*}{5cm}(1.6cm,6cm)
 		\fontsize{4cm}{2em}\selectfont
 		\rotatebox[origin=c]{90}{\color{primaryVariant}Contents}
 	\end{textblock*}
 	\newpage
 }
+
 
 %		ToC
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

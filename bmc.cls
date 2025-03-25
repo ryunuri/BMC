@@ -912,7 +912,7 @@ hyperindex]{hyperref}
 	% \endofdump if using mylatexformat
 	\ifdefined\endofdump\endofdump\fi
 
-	\usepackage[automake, smallcaps, numberedsection=nolabel, style=long3col]{glossaries}
+	\usepackage[automake, numberedsection=nolabel, style=long3col]{glossaries}
 	\makeglossaries
 	\ifdefined\bmcaftergloss\bmcaftergloss\fi
 

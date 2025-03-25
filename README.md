@@ -2,6 +2,14 @@
 
 #### [Documentation / Demo](https://tecosaur.com/lfs/bmc/bmc.pdf)
 
+--- 
+
+This version of BMC includes fixes from [Pull Request #12](https://github.com/tecosaur/BMC/pull/12) that upgrades the yPackages, 
+and additionally removes the `interfaces-base` package from `bmc-boxes.sty`. 
+I have also made a few minor changes for compatibility in my local environment.
+
+---
+
 ### A LaTeX Class designed to make my documents magnificent in style as well as content
 
 This project was heavily inspired, and initially built off the fantastic work of @HarveySheppard (see [yLaTeX](https://github.com/HarveySheppard/yLaTeX)).
